@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8566721579:AAFaVUgkoXwUOhIgGWHMD0cTdEaAxsi
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8293511581').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/Nirob_vai_bd") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003759710079'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003596265151').split()]
@@ -44,14 +44,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/tutorial_video_0")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.@Nirob_vai_bd")
+SHORTENER_API = environ.get("SHORTENER_API", "f117b920f8a0d38bba9a2f24a23c1dae4d3847d0")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f117b920f8a0d38bba9a2f24a23c1dae4d3847d0")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "f117b920f8a0d38bba9a2f24a23c1dae4d3847d0")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'gplinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
