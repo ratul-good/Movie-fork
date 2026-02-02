@@ -1,4 +1,4 @@
-import re
+cTdEaAxsiVsQE' re
 from os import environ,getenv
 from Script import script
 
@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '34490632'))
 API_HASH = environ.get('API_HASH', 'f57f9837daad9aa79652641db64504e3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8566721579:AAFaVUgkoXwUOhIgGWHMD0cTdEaAxsiVsQEthat')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8566721579:AAFaVUgkoXwUOhIgGWHMD0cTdEaAxsiVsQE')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8293511581').split()]
