@@ -1,5 +1,5 @@
 import re
-portportom os import environ,getenv
+from os import environ, getenv
 from Script import script
 
 id_pattern = re.compile(r'^.\d+$')
