@@ -124,7 +124,7 @@ SETTINGS = {
             'log': LOG_VR_CHANNEL,
             'imdb': IMDB,
             'link': LINK_MODE, 
-            'is_verify': IS_VERIFY, 
+            'is_verify': False, 
             'verify_time': TWO_VERIFY_GAP,
             'shortner_three': SHORTENER_WEBSITE3,
             'api_three': SHORTENER_API3,
